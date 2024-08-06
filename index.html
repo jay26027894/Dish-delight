@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <nav>
+        <div class="left">
+            <img src="Logo.png" alt="">Khana 
+        </div>
+        <div class="center">
+            <input id="searchbar" onkeyup="search_dish()" type="text" name="search" placeholder="Aur kya khana hai ...">
+        </div>
+        <div class="right">
+            <ul>
+                <li><a id="breakfast-link" href="#breakfast">Breakfast</a></li>
+                <li><a id="lunch-link" href="#lunch">Lunch</a></li>
+                <li><a id="hitea-link" href="#hitea">Hi-tea</a></li>
+                <li><a id="dinner-link" href="#dinner">Dinner</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<main>
+    <section id="breakfast" class="breakfast">
+        <h2 class="bf">Breakfast recipes</h2>
+        <div class="card-container">
+            <div class="card">
+                <img src="poha.jpg" alt="">
+                <div class="card-content">
+                    <h2>Poha</h2>
+                    <p>Fluffy and fragrant poha, a savory flattened rice dish with a burst of spices and a sprinkle of fresh cilantro.</p>
+                    <button>View recipe</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Sandwich.jpeg" alt="">
+                <div class="card-content">
+                    <h2>Sandwich</h2>
+                    <p>Crispy on the outside, packed with flavorful fillings, this sandwich is the perfect blend of textures and tastes.</p>
+                    <button>View recipe</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="egg toast.jpg" alt="">
+                <div class="card-content">
+                    <h2>Egg toast</h2>
+                    <p> Golden, buttery toast topped with perfectly cooked eggs, a morning delight that melts in your mouth.</p>
+                    <button>View recipe</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="upma.jpg" alt="">
+                <div class="card-content">
+                    <h2>Upma</h2>
+                    <p>Warm, aromatic upma, a semolina dish studded with veggies and nuts, offering a comforting bite.</p>
+                    <button>View recipe</button>
+                </div>
+            </div>
+            <!-- Additional cards -->
+            <div class="card">
+                <img src="dosa.jpeg" alt="">
+                <div class="card-content">
+                    <h2>Dosa</h2>
+                    <p>Thin, crispy dosa with a hint of tang, served hot with chutney and sambar, a South Indian classic.</p>
+                    <button>View recipe</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="puri bhaji.jpg" alt="">
+                <div class="card-content">
+                    <h2>Puri bhaji</h2>
+                    <p>Puffy puris paired with a spiced potato bhaji, a delightful combo that’s both comforting and flavorful.</p>
+                    <button>View recipe</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="vada.jpg" alt="">
+                <div class="card-content">
+                    <h2>Vada</h2>
+                    <p>Golden-brown vada, crunchy on the outside and soft on the inside, perfect with a side of chutney.</p>
+                    <button>View recipe</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="idli.jpg" alt="">
+                <div class="card-content">
+                    <h2>Idli</h2>
+                    <p>Soft, fluffy idlis that soak up sambar and chutney, making each bite a heavenly experience.</p>
+                    <button>View recipe</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="dhokla.jpg" alt="">
+                <div class="card-content">
+                    <h2>Dhokla</h2>
+                    <p>Light and spongy dhokla, a Gujarati snack with a hint of sweetness and a tangy twist.</p>
+                    <button>View recipe</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="appam.jpg" alt="">
+                <div class="card-content">
+                    <h2>Appam</h2>
+                    <p>Delicately lacy appams with a soft center, perfect for sopping up creamy coconut-based curries.</p>
+                    <button>View recipe</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="thepla.jpg" alt="">
+                <div class="card-content">
+                    <h2>Thepla</h2>
+                    <p>Savory theplas, spiced flatbreads with fenugreek, offering a burst of flavor in every bite.</p>
+                    <button>View recipe</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="pancake.jpg" alt="">
+                <div class="card-content">
+                    <h2>Pancake</h2>
+                    <p> Fluffy, golden pancakes dripping with syrup and topped with fresh fruit, an irresistible morning treat.</p>
+                    <button>View recipe</button>
+                </div>
+            </div>
+            <!-- Add more cards as needed -->
+        </div>
+    </section>
+     <!-- lunch  -->
+    <section id="lunch" class="lunch">
+        <h2 class="bf">Lunch recipes</h2>
+        <div class="card-container">
+            <div class="card">
+                <img src="butterchicken.jpg" alt="">
+                <div class="card-content">
+                    <h2>Butter chicken</h2>
+                    <p>Succulent chicken pieces bathed in a luscious, creamy tomato sauce with a perfect blend of spices.</p>
+                    <button>View recipe</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="paneerbuttermasala.jpg" alt="">
+                <div class="card-content">
+                    <h2>Paneer Butter Masala</h2>
+                    <p>Soft paneer cubes simmered in a rich, buttery tomato gravy, a velvety delight in every bite.</p>
+                    <button>View recipe</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="biryani.jpg" alt="">
+                <div class="card-content">
+                    <h2>Biryani</h2>
+                    <p>Fragrant basmati rice layered with tender meat or vegetables, infused with saffron and aromatic spices.</p>
+                    <button>View recipe</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="dal tadka.jpg" alt="">
+                <div class="card-content">
+                    <h2>Dal tadka</h2>
+                    <p> Creamy lentils tempered with sizzling garlic, cumin, and mustard seeds, offering a burst of flavor in each spoonful.</p>
+                    <button>View recipe</button>
+                </div>
+            </div>
+            <!-- Additional cards -->
+            <div class="card">
+                <img src="rajma chawal.jpg" alt="">
+                <div class="card-content">
+                    <h2>Rajma chawal</h2>
+                    <p>Hearty kidney beans simmered in a spiced tomato gravy, served over fluffy basmati rice, a comforting classic.</p>
+                    <button>View recipe</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="fish curry.jpeg" alt="">
+                <div class="card-content">
+                    <h2>Fish curry</h2>
+                    <p>Fresh fish cooked in a tangy and spicy coconut-based curry, a coastal delight with every bite.</p>
+                    <button>View recipe</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="baigan bharta.jpg" alt="">
+                <div class="card-content">
+                    <h2>Baigan bharta</h2>
+                    <p>Smoky mashed eggplant cooked with tomatoes, onions, and a blend of spices, a rustic and flavorful dish.</p>
+                    <button>View recipe</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="kadai paneer.jpg" alt="">
+                <div class="card-content">
+                    <h2>Kadai Paneer</h2>
+                    <p>Paneer cubes cooked with bell peppers and onions in a thick, spicy tomato gravy, bursting with robust flavors.</p>
+                    <button>View recipe</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="sarso ka saag.jpg" alt="">
+                <div class="card-content">
+                    <h2>Sarso ka saag</h2>
+                    <p>Mustard greens cooked with spices, a rich and earthy dish served with a dollop of butter.</p>
+                    <button>View recipe</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="veg kolhapuri.jpg" alt="">
+                <div class="card-content">
+                    <h2>Veg kolhapuri</h2>
+                    <p>A spicy and flavorful mixed vegetable curry from Kolhapur, packed with vibrant spices.</p>
+                    <button>View recipe</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="egg curry.jpeg" alt="">
+                <div class="card-content">
+                    <h2>Egg curry</h2>
+                    <p>Hard-boiled eggs simmered in a spicy and tangy tomato-based gravy, perfect for a hearty meal.</p>
+                    <button>View recipe</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="dapka kadhi.jpg" alt="">
+                <div class="card-content">
+                    <h2>Dapka kadhi</h2>
+                    <p>Soft gram flour dumplings in a tangy yogurt-based curry, a Gujarati delicacy that’s comforting and flavorful.</p>
+                    <button>View recipe</button>
+                </div>
+            </div>
+            <!-- Add more cards as needed -->
+        </div>
+    </section>
+    <section id="hitea" class="hitea">
+        <h2 class="bf">Hi-tea</h2>
+        <div class="card-container">
+            <div class="card">
+                <img src="pakoras.jpg" alt="">
+                <div class="card-content">
+                    <h2>Pakora</h2>
+                    <p>Crispy and golden, pakoras are a symphony of spiced vegetables wrapped in a delicious gram flour batter.</p>
+                    <button>View recipe</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="samosas.jpg" alt="">
+                <div class="card-content">
+                    <h2>Samosa</h2>
+                    <p>Samosas offer a delightful crunch with each bite, bursting with a savory blend of spiced potatoes and peas.</p>
+                    <button>View recipe</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="mathri.jpg" alt="">
+                <div class="card-content">
+                    <h2>Mathri</h2>
+                    <p>Mathri is a crispy, flaky treat with a perfect hint of spice, making every bite a satisfying crunch.</p>
+                    <button>View recipe</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="fruit chaat.jpg" alt="">
+                <div class="card-content">
+                    <h2>Fruit chaat</h2>
+                    <p>Fruit chaat is a refreshing medley of vibrant fruits tossed with a zesty sprinkle of chaat masala, adding a sweet and tangy twist.</p>
+                    <button>View recipe</button>
+                </div>
+            </div>
+            <!-- Additional cards -->
+            <div class="card">
+                <img src="murkul.jpg" alt="">
+                <div class="card-content">
+                    <h2>Murukku</h2>
+                    <p>Murukku is a crispy, spiral snack that crackles with each bite, offering a tantalizing blend of spices and rice flour</p>
+                    <button>View recipe</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="kachori.jpg" alt="">
+                <div class="card-content">
+                    <h2>Kachori</h2>
+                    <p>Kachoris are savory, flaky pastries filled with spiced lentils or peas, offering a burst of flavor in every bite.</p>
+                    <button>View recipe</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="panipuri.jpg" alt="">
+                <div class="card-content">
+                    <h2>Panipuri</h2>
+                    <p>Pani puri is a delightful explosion of flavors, with crisp puris filled with spicy, tangy water and a burst of savory fillings.</p>
+                    <button>View recipe</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="bhelpuri.jpg" alt="">
+                <div class="card-content">
+                    <h2>Bhelpuri</h2>
+                    <p>Bhel puri is a crunchy, tangy mix of puffed rice and vegetables, brought together with a symphony of chutneys and spices.</p>
+                    <button>View recipe</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="popcorn.jpg" alt="">
+                <div class="card-content">
+                    <h2>Popcorn</h2>
+                    <p>Popcorn is a light, airy snack with a satisfying crunch, perfect for a movie night or a quick treat.</p>
+                    <button>View recipe</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="nachos.jpg" alt="">
+                <div class="card-content">
+                    <h2>Nachos</h2>
+                    <p>Nachos are a cheesy, crispy delight, loaded with melted cheese and topped with jalapeños, creating a savory, mouthwatering snack.</p>
+                    <button>View recipe</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="chickpeas.jpg" alt="">
+                <div class="card-content">
+                    <h2>Roasted chickpeas</h2>
+                    <p>Roasted chickpeas are a crunchy, guilt-free snack, bursting with savory spices and a satisfying crunch that keeps you coming back for more.</p>
+                    <button>View recipe</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="muffins.jpeg" alt="">
+                <div class="card-content">
+                    <h2>Savory muffins</h2>
+                    <p>Savory muffins are a warm, comforting treat, packed with cheese, herbs, and veggies, offering a delightful blend of flavors and a moist, tender crumb.</p>
+                    <button>View recipe</button>
+                </div>
+            </div>
+            <!-- Add more cards as needed -->
+        </div>
+    </section>
+    <section id="dinner" class="dinner">
+        <h2 class="bf">Dinner recipes</h2>
+        <div class="card-container">
+            <div class="card">
+                <img src="vegetable stir fry.jpg" alt="">
+                <div class="card-content">
+                    <h2>Vegetable stir fry</h2>
+                    <p>A vibrant medley of crisp vegetables stir-fried with savory sauces, offering a delightful crunch and a burst of flavor.</p>
+                    <button>View recipe</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="grilled salmon.jpg" alt="">
+                <div class="card-content">
+                    <h2>Grilled salmon</h2>
+                    <p>Perfectly grilled salmon, with a tender, flaky texture and a subtle smoky flavor, complemented by a touch of fresh herbs.</p>
+                    <button>View recipe</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Rogan josh.jpg" alt="">
+                <div class="card-content">
+                    <h2>Rogan josh</h2>
+                    <p>Succulent lamb simmered in a rich, aromatic sauce of warm spices and tenderly cooked to perfection.</p>
+                    <button>View recipe</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="pulao.jpg" alt="">
+                <div class="card-content">
+                    <h2>Pulao</h2>
+                    <p>Fragrant rice cooked with a blend of spices and tender vegetables, offering a flavorful and aromatic side dish.</p>
+                    <button>View recipe</button>
+                </div>
+            </div>
+            <!-- Additional cards -->
+            <div class="card">
+                <img src="prawn masala.jpeg" alt="">
+                <div class="card-content">
+                    <h2>Prawn masala</h2>
+                    <p>Juicy prawns cooked in a spicy, tangy tomato-based sauce, delivering a burst of exotic flavors in every bite.</p>
+                    <button>View recipe</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="tofu masala.jpg" alt="">
+                <div class="card-content">
+                    <h2>Tofu masala </h2>
+                    <p>Crispy tofu tossed with fresh vegetables and a savory sauce, creating a satisfying and flavorful plant-based meal.</p>
+                    <button>View recipe</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="palak paneer.jpg" alt="">
+                <div class="card-content">
+                    <h2>Palak paneer</h2>
+                    <p>Creamy spinach sauce enveloping tender paneer cubes, offering a comforting and flavorful vegetarian delight.</p>
+                    <button>View recipe</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="lemon rice.jpg" alt="">
+                <div class="card-content">
+                    <h2>Lemon rice</h2>
+                    <p>Bright and zesty rice infused with tangy lemon juice and spices, providing a refreshing twist to your meal.</p>
+                    <button>View recipe</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="chicken shawrma.jpg" alt="">
+                <div class="card-content">
+                    <h2>Chicken Shawarma</h2>
+                    <p>Spiced and tender chicken wrapped in warm pita bread, complemented by fresh veggies and a creamy garlic sauce.</p>
+                    <button>View recipe</button>
+                </div>
+            </div>
+            <div class="card" >
+                <img src="sushi.jpg" alt="">
+                <div class="card-content">
+                    <h2>Sushi</h2>
+                    <p>Fresh and delicate sushi rolls, with perfectly seasoned rice and a variety of vibrant fillings, offering a taste of Japanese culinary artistry.</p>
+                    <button>View recipe</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="chicken parmesan.jpg" alt="">
+                <div class="card-content">
+                    <h2>Chicken parmesan</h2>
+                    <p>Crispy, breaded chicken topped with rich marinara sauce and melted cheese, creating a comforting and classic Italian favorite.</p>
+                    <button>View recipe</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="mexican tacos.jpg" alt="">
+                <div class="card-content">
+                    <h2>Mexican tacos</h2>
+                    <p>Flavor-packed tacos filled with seasoned meat, fresh toppings, and tangy salsa, offering a delicious and customizable bite.</p>
+                    <button>View recipe</button>
+                </div>
+            </div>
+            <!-- Add more cards as needed -->
+        </div>
+    </section>
+    <div id="no-results" style="display:none;">No matches found</div>
+
+</main>
+<script src="script.js"></script>
+</body>
+</html>
