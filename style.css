@@ -147,7 +147,8 @@ nav {
 .card:hover {
     transform: translateY(-10px);
 }
-@media (max-width: 1024px) { /* responsiveness */
+/* Media Queries for Responsiveness */
+@media (max-width: 1024px) {
     nav {
         flex-direction: column;
         padding: 10px;
@@ -170,14 +171,6 @@ nav {
     .center input {
         width: 100%;
     }
-
-    .card-container {
-        justify-content: center;
-    }
-
-    .card {
-        max-width: 45%;
-    }
 }
 
 @media (max-width: 768px) {
@@ -186,8 +179,8 @@ nav {
     }
 
     .card {
-        max-width: 100%;
-        margin: 10px 0;
+        max-width: 300px;
+        min-width: 300px;
     }
 
     .card-content p {
@@ -206,7 +199,8 @@ nav {
     }
 
     .card {
-        max-width: 80%;
+        max-width: 350px;
+        min-width: 300px;
         margin: 10px 0;
     }
 
