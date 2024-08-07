@@ -93,7 +93,7 @@ nav {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    justify-content: center; /* Center the cards */
+    justify-content: center; 
     width: 100%;
     max-width: 1200px;
     box-sizing: border-box;
@@ -103,7 +103,7 @@ nav {
     background-color: antiquewhite;
     border-radius: 8px;
     overflow: hidden;
-    width: calc(25% - 20px); /* 4 cards per row with gap */
+    width: calc(25% - 20px); 
     transition: transform 0.2s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
@@ -146,4 +146,75 @@ nav {
 
 .card:hover {
     transform: translateY(-10px);
+}
+@media (max-width: 1024px) { /* responsiveness */
+    nav {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .left, .center, .right {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .right ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .right ul li {
+        margin: 10px 0;
+    }
+
+    .center input {
+        width: 100%;
+    }
+
+    .card-container {
+        justify-content: center;
+    }
+
+    .card {
+        max-width: 45%;
+    }
+}
+
+@media (max-width: 768px) {
+    .card-container {
+        justify-content: center;
+    }
+
+    .card {
+        max-width: 100%;
+        margin: 10px 0;
+    }
+
+    .card-content p {
+        font-size: 14px;
+    }
+
+    .card-content button {
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 600px) {
+    .card-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        max-width: 80%;
+        margin: 10px 0;
+    }
+
+    .card-content p {
+        font-size: 12px;
+    }
+
+    .card-content button {
+        padding: 8px 16px;
+    }
 }
